@@ -15,5 +15,6 @@ export default defineNuxtConfig({
   },
   css: ['./app/assets/css/main.css'],
   compatibilityDate: '2025-07-15',
-  devtools: { enabled: true }
+  devtools: { enabled: true },
+  ssr: true
 })
