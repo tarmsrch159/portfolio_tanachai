@@ -32,22 +32,6 @@
               <span class="flex items-center gap-2">📧 {{ resumeData.profile.contact.email }}</span>
             </div>
 
-            <div class="flex gap-4 mt-3 text-sm">
-              <a v-if="resumeData.profile.links.github" :href="resumeData.profile.links.github" target="_blank"
-                class="text-slate-500 hover:text-black dark:hover:text-white transition">
-                GitHub
-              </a>
-
-              <a v-if="resumeData.profile.links.gitlab" :href="resumeData.profile.links.gitlab" target="_blank"
-                class="text-slate-500 hover:text-black dark:hover:text-white transition">
-                GitLab
-              </a>
-
-              <a v-if="resumeData.profile.links.facebook" :href="resumeData.profile.links.facebook" target="_blank"
-                class="text-slate-500 hover:text-black dark:hover:text-white transition">
-                Facebook
-              </a>
-            </div>
 
           </div>
 
