@@ -9,7 +9,13 @@ export const resumeData = {
       email: "tarmsrch159@gmail.com",
       location: "Thailand"
     },
-    bio: "Developer ที่เชี่ยวชาญทั้ง Web และ Mobile มีความสามารถใช้ Flutter, React, และ Node.js เพื่อสร้างระบบครบวงจร UI/UX ใช้งานง่าย ชอบทำงานเป็นทีมและปรับตัวเร็ว พร้อมช่วยองค์กรในการพัฒนาฟีเจอร์ใหม่และต่อยอดผลิตภัณฑ์"
+    bio: "Developer ที่ชอบ Web และ Mobile มีความสามารถใช้ Flutter, React, Vue, Laravel, MySQL, postgreSQL, และ Node.js เพื่อสร้างระบบครบวงจร UI/UX ใช้งานง่าย ชอบทำงานเป็นทีมและปรับตัวเร็ว พร้อมช่วยองค์กรในการพัฒนาฟีเจอร์ใหม่และต่อยอดผลิตภัณฑ์",
+    graduated: "มหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ สุพรรณบุรี",
+    links: {
+      github: "https://github.com/tarmsrch159",
+      gitlab: "https://gitlab.com/tarmsrch159",
+      facebook: "https://www.facebook.com/tanachai.hpsp/",
+    }
   },
   experience: [
     {

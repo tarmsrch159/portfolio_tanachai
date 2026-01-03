@@ -31,6 +31,24 @@
               <span class="flex items-center gap-2">📞 {{ resumeData.profile.contact.phone }}</span>
               <span class="flex items-center gap-2">📧 {{ resumeData.profile.contact.email }}</span>
             </div>
+
+            <div class="flex gap-4 mt-3 text-sm">
+              <a v-if="resumeData.profile.links.github" :href="resumeData.profile.links.github" target="_blank"
+                class="text-slate-500 hover:text-black dark:hover:text-white transition">
+                GitHub
+              </a>
+
+              <a v-if="resumeData.profile.links.gitlab" :href="resumeData.profile.links.gitlab" target="_blank"
+                class="text-slate-500 hover:text-black dark:hover:text-white transition">
+                GitLab
+              </a>
+
+              <a v-if="resumeData.profile.links.facebook" :href="resumeData.profile.links.facebook" target="_blank"
+                class="text-slate-500 hover:text-black dark:hover:text-white transition">
+                Facebook
+              </a>
+            </div>
+
           </div>
 
         </div>
@@ -39,6 +57,71 @@
           class="mt-8 text-lg text-slate-600 dark:text-slate-300 leading-relaxed max-w-3xl border-l-4 border-blue-500 pl-6 italic">
           "{{ resumeData.profile.bio }}"
         </p>
+
+        <section class="mt-8">
+          <h2 class="text-sm font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400 mb-3">
+            Education
+          </h2>
+
+          <div class="flex items-center gap-3
+           bg-white dark:bg-slate-900
+           border border-gray-200 dark:border-slate-800
+           rounded-xl px-5 py-4 shadow-sm">
+            <span class="w-10 h-10 flex items-center justify-center
+             rounded-lg bg-blue-100 dark:bg-blue-900/30
+             text-blue-600 dark:text-blue-400 text-lg">
+              🎓
+            </span>
+
+            <p class="text-slate-700 dark:text-slate-300 font-medium">
+              {{ resumeData.profile.graduated }}
+            </p>
+          </div>
+        </section>
+
+
+        <section class="mt-8">
+          <h2 class="text-sm font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400 mb-3">
+            Professional Links
+          </h2>
+
+          <div class="flex flex-wrap gap-4">
+            <a v-if="resumeData.profile.links.github" :href="resumeData.profile.links.github" target="_blank" class="flex items-center gap-2 px-5 py-2 rounded-xl
+             bg-white dark:bg-slate-900
+             border border-gray-200 dark:border-slate-800
+             text-slate-700 dark:text-slate-300
+             hover:border-blue-500 hover:text-blue-600
+             dark:hover:border-blue-400 dark:hover:text-blue-400
+             shadow-sm transition-all">
+              <span class="text-lg">🐙</span>
+              <span class="font-medium">GitHub</span>
+            </a>
+
+            <a v-if="resumeData.profile.links.gitlab" :href="resumeData.profile.links.gitlab" target="_blank" class="flex items-center gap-2 px-5 py-2 rounded-xl
+             bg-white dark:bg-slate-900
+             border border-gray-200 dark:border-slate-800
+             text-slate-700 dark:text-slate-300
+             hover:border-purple-500 hover:text-purple-600
+             dark:hover:border-purple-400 dark:hover:text-purple-400
+             shadow-sm transition-all">
+              <span class="text-lg">🦊</span>
+              <span class="font-medium">GitLab</span>
+            </a>
+
+            <a v-if="resumeData.profile.links.facebook" :href="resumeData.profile.links.facebook" target="_blank" class="flex items-center gap-2 px-5 py-2 rounded-xl
+             bg-white dark:bg-slate-900
+             border border-gray-200 dark:border-slate-800
+             text-slate-700 dark:text-slate-300
+             hover:border-blue-600 hover:text-blue-700
+             dark:hover:border-blue-500 dark:hover:text-blue-400
+             shadow-sm transition-all">
+              <span class="text-lg">📘</span>
+              <span class="font-medium">Facebook</span>
+            </a>
+          </div>
+        </section>
+
+
       </div>
     </header>
 
