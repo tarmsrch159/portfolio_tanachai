@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  /* คุณสามารถกำหนดสี Custom ตรงนี้ได้ถ้าต้องการ */
+  --color-primary: var(--color-blue-600);
+}
+
+/* ตั้งค่า Variant สำหรับ Dark Mode ใน v4 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* แถม: ทำให้สีเปลี่ยนแบบนุ่มนวลทั้งหน้าเว็บ */
+@layer base {
+  *, ::after, ::before {
+    @apply transition-colors duration-300;
+  }
+}
+/* คงไว้สำหรับตอนสั่ง Print */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #resume-preview, #resume-preview * {
+    visibility: visible;
+  }
+  #resume-preview {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
