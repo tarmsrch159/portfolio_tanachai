@@ -1,7 +1,7 @@
 // content/resumeData.js
 export const resumeData = {
   profile: {
-    name: "ธนชัย โห้นา",
+    name: "profile.name",
     image: "/images/profile.jpg",
     roleKey: "profile.role",
     bioKey: "profile.bio",

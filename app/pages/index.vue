@@ -14,7 +14,7 @@
             <ThemeToggle />
           </ClientOnly>
 
-          
+
           <div class="flex items-center gap-2 text-xs text-slate-500">
             <span>{{ t(resumeData.language) }}</span>
             <!-- pill switch -->
@@ -56,7 +56,7 @@
 
           <div>
             <h1 class="text-4xl md:text-5xl font-extrabold">
-              {{ resumeData.profile.name }}
+              {{ t(resumeData.profile.name) }}
             </h1>
 
             <p class="text-xl md:text-2xl text-blue-600 font-semibold mt-1">
