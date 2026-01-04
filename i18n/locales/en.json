@@ -1,0 +1,40 @@
+{
+    "profile": {
+        "role": "Web & Mobile Developer",
+        "bio": "A developer passionate about web and mobile development, experienced in Flutter, React, Vue, Laravel, MySQL, PostgreSQL, and Node.js, focused on building scalable systems with great UI/UX.",
+        "graduated": "Rajamangala University of Technology Suvarnabhumi, Suphanburi",
+        "location": "Thailand"
+    },
+    "section": {
+        "education": "Education",
+        "links": "Professional Links",
+        "experience": "Experience",
+        "projects": "Projects",
+        "skills": "Skills"
+    },
+    "lang": "Language",
+    "experience": {
+        "demastic": {
+            "role": "Flutter UI Developer",
+            "period": "Jan 2024 – Nov 2024",
+            "desc1": "Developed responsive mobile app UI with animations",
+            "desc2": "Integrated APIs (Auth, Product List, User Profile)",
+            "desc3": "Managed state using Provider, GetX, and Riverpod",
+            "desc4": "Built reusable widgets to improve development efficiency"
+        }
+    },
+    "projects": {
+        "crypto": {
+            "title": "Crypto Exchange App",
+            "details": "Developed responsive UI/UX and integrated REST APIs"
+        },
+        "skillStandard": {
+            "title": "Skill Standard System",
+            "details": "Full-stack project with CRUD operations and API integration"
+        },
+        "ecommerce": {
+            "title": "Ecommerce Platform",
+            "details": "Developed a full-featured ecommerce platform (Frontend & Backend)"
+        }
+    }
+}

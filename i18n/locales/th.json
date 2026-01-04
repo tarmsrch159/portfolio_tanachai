@@ -1,0 +1,40 @@
+{
+    "profile": {
+        "role": "Web & Mobile Developer",
+        "bio": "Developer ที่ชอบ Web และ Mobile มีความสามารถใช้ Flutter, React, Vue, Laravel, MySQL, PostgreSQL และ Node.js เพื่อสร้างระบบครบวงจร UI/UX ใช้งานง่าย ชอบทำงานเป็นทีมและปรับตัวเร็ว",
+        "graduated": "มหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ สุพรรณบุรี",
+        "location": "ประเทศไทย"
+    },
+    "section": {
+        "education": "การศึกษา",
+        "links": "ช่องทางติดต่อ",
+        "experience": "ประสบการณ์ทำงาน",
+        "projects": "ผลงานที่เคยทำ",
+        "skills": "ทักษะ"
+    },
+    "lang": "ภาษา",
+    "experience": {
+        "demastic": {
+            "role": "Flutter UI Developer",
+            "period": "ม.ค. 2024 – พ.ย. 2024",
+            "desc1": "พัฒนา UI ของ Mobile App ให้รองรับ Responsive และมี Animation",
+            "desc2": "เชื่อมต่อ API (Auth, Product List, User Profile)",
+            "desc3": "จัดการ State Management ด้วย Provider / GetX / Riverpod",
+            "desc4": "สร้าง Reusable Widgets เพื่อลดเวลาการพัฒนา"
+        }
+    },
+    "projects": {
+        "crypto": {
+            "title": "Crypto Exchange App",
+            "details": "พัฒนา UI/UX ให้ Responsive และเชื่อมต่อ REST API"
+        },
+        "skillStandard": {
+            "title": "ระบบมาตรฐานฝีมือแรงงาน",
+            "details": "Full-stack Project จัดการระบบ CRUD และ API"
+        },
+        "ecommerce": {
+            "title": "Ecommerce Platform",
+            "details": "พัฒนาระบบ Ecommerce ครบวงจร Frontend และ Backend"
+        }
+    }
+}
