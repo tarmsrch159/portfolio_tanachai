@@ -30,11 +30,11 @@
             "details": "พัฒนา UI/UX ให้ Responsive และเชื่อมต่อ REST API"
         },
         "skillStandard": {
-            "title": "ระบบมาตรฐานฝีมือแรงงาน",
+            "title": "ระบบมาตรฐานฝีมือแรงงาน (โครงการจบการศึกษาระดับปริญญาตรี)",
             "details": "Full-stack Project จัดการระบบ CRUD และ API"
         },
         "ecommerce": {
-            "title": "Ecommerce Platform",
+            "title": "Ecommerce Platform (Udemy Course Project)",
             "details": "พัฒนาระบบ Ecommerce ครบวงจร Frontend และ Backend"
         }
     }

@@ -140,7 +140,7 @@
             🚀 {{ t('section.projects') }}
           </h2>
 
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
             <div v-for="pj in resumeData.projects" :key="pj.titleKey"
               class="p-6 rounded-xl border bg-white dark:bg-slate-900">
               <h3 class="font-bold text-lg">
