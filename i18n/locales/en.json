@@ -26,16 +26,20 @@
     },
     "projects": {
         "crypto": {
-            "title": "Crypto Exchange App",
+            "title": "💱 Crypto Exchange App",
             "details": "Developed responsive UI/UX and integrated REST APIs"
         },
         "skillStandard": {
-            "title": "Skill Standard System (Bachelor’s Degree Capstone Project)",
+            "title": "🏛️ Skill Standard System (Bachelor’s Degree Capstone Project)",
             "details": "Full-stack project with CRUD operations and API integration"
         },
         "ecommerce": {
-            "title": "Ecommerce Platform (Udemy Course Project)",
+            "title": "🛒 Ecommerce Platform (Udemy Course Project)",
             "details": "Developed a full-featured ecommerce platform (Frontend & Backend)"
+        },
+        "iot_ecommerce": {
+            "title": "📡 IoT Ecommerce & Order Analytics Platform",
+            "details": "Developed a full-stack IoT ecommerce platform with admin and user roles, featuring province-based order analytics and real-time dashboards."
         }
     }
 }

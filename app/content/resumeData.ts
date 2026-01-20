@@ -34,7 +34,7 @@ export const resumeData = {
 
   skills: {
     mobile: ["Flutter", "Dart", "Provider", "Firebase"],
-    web: ["Vue JS", "React.js", "Laravel", "Node.js", "HTML5/CSS3", "JavaScript (ES6+)"],
+    web: ["VueJS", "ReactJS", "Nuxt","Laravel", "Node.js", "HTML5/CSS3", "JavaScript (ES6+)"],
     database: ["MySQL", "phpMyAdmin", "PostgreSQL"]
   },
 
@@ -55,6 +55,13 @@ export const resumeData = {
       detailsKey: "projects.ecommerce.details",
       liveUrl: "https://shirtecom.great-site.net/",
       repoUrl: "https://github.com/tarmsrch159/Ecommerce-Project-Portfolio"
+    },
+    {
+      titleKey: 'projects.iot_ecommerce.title',
+      detailsKey: 'projects.iot_ecommerce.details',
+      tech: 'Nuxt 3 · Laravel · PostgreSQL · TailwindCSS',
+      liveUrl: 'https://io-t-ecommerce-frontend.vercel.app/',
+      repoUrl: 'https://github.com/tarmsrch159/IoT_ecommerce.git'
     }
   ]
 }
